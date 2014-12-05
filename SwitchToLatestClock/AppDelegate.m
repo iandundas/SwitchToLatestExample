@@ -29,7 +29,6 @@
 
 -(void)switchClock{
     NSLog (@"Switching To Fast Clock");
-//    self.timeKeeper= [[TimeKeeper alloc]init];
     [self.timeKeeper setClock:[FastClock new]];
 
 }
